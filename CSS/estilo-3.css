@@ -1,0 +1,61 @@
+/*limpar formatação*/
+*{
+    margin:0;
+    padding:0;
+}
+/*prestar ateção pra ajeitar as cores senhor*/
+body{
+    font-size:1em;
+       font-family:"Arial", Helvetica, sans-serif;
+       background:#EBE9E9;
+}
+/*layout da pagina*/
+#cabeçalho{
+    background:#3E7CEE;
+    padding:20px;
+    text-align:center;
+    height:200px;
+}
+/*layout do conteudo*/
+#area-principal{
+    margin:0 auto;
+    padding:15px;
+    width: 620px;
+    background: white;
+}
+#azul{
+    color:#3E7CEE;
+    border-bottom: 1px solid #3E7CEE;
+}
+.branco{
+    color:#FFFFFF;
+}
+/*layout dos links*/
+a{
+    text-decoration:none;
+   
+}
+ a:link,a:visited{
+    color:Black;
+    padding:8px 12px;
+}
+ a:hover{
+    text-decoration: underline ;
+}
+#cabeçalho a:link,#cabeçalho a:visited{
+    color:black;
+    padding:8px 12px;
+}
+#cabeçalho a:hover{
+    color:#3E7CEE;
+    background-color:#FFFFFF;
+    text-decoration:none;
+}
+/*menus*/
+#logo, #menus{
+    padding:15px;
+}
+h1{
+    font-size:3.0em;
+    color:#DDE10E;
+}
